@@ -37,3 +37,5 @@ override.tf.json Будет проигнорирован файл с этим н
 .terraformrc Будут проигнорированы файлы с .terraformrc названием в текущей дирректории
 terraform.rc Будет проигнорирован файл с этим названием в текущей дирректории
 #first line
+Second line
+3 line
