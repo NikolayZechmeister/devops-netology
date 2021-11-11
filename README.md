@@ -2,7 +2,6 @@
 # devops-netology
 1.git show aefea
 aefead2207ef7e2aa5dc81a34aedf0cad4c32545
-Update CHANGELOG.md
 2.tag: v0.12.23
 3. git show b8d720  итого 2 родителя
 git show 56cd7859e
