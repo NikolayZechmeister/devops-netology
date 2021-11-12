@@ -12,7 +12,7 @@
 #56cd7859e05c36c06b56d013b55a252d0bb7e158
 #9ea88f22fc6269854151c571162c5bcf958bee2b
 
-#4. git log v0.12.23..v0.12.24 --oneline
+# 4. git log v0.12.23..v0.12.24 --oneline
 #33ff1c03b (tag: v0.12.24) v0.12.24
 #b14b74c49 [Website] vmc provider links
 #3f235065b Update CHANGELOG.md
@@ -24,20 +24,20 @@
 #dd01a3507 Update CHANGELOG.md
 #225466bc3 Cleanup after v0.12.23 release
 
-#5. git log -S'func providerSource' --oneline
+# 5. git log -S'func providerSource' --oneline
 #8c928e835 main: Consult local directories as potential mirrors of providers
 #git show 8c928e835 
 
 # 6.git show 
-# git grep globalPluginDirs
-# git grep "func globalPluginDirs"
-# git log -L :globalPluginDirs:plugins.go --oneline
-# 78b122055 Remove config.go and update things using its aliases
-# 52dbf9483 keep .terraform.d/plugins for discovery
-# 41ab0aef7 Add missing OS_ARCH dir to global plugin paths
+#git grep globalPluginDirs
+#git grep "func globalPluginDirs"
+#git log -L :globalPluginDirs:plugins.go --oneline
+#78b122055 Remove config.go and update things using its aliases
+#52dbf9483 keep .terraform.d/plugins for discovery
+#41ab0aef7 Add missing OS_ARCH dir to global plugin paths
 
 # 7. git log -S'synchronizedWriters' --pretty
-# Author: Martin Atkins <mart@degeneration.co.uk>
+#Author: Martin Atkins <mart@degeneration.co.uk>
 
 
 
